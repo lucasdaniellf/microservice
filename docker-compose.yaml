@@ -1,0 +1,93 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    container_name: postgres_db
+    restart: always
+    ports: 
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: S3NH@!!!
+      POSTGRES_USER: postgres
+    volumes: 
+      - ./pgdata:/var/lib/postgresql/data
+      - ./ApiGraphQL/dbScript.sql:/docker-entrypoint-initdb.d/dbScript.sql
+    networks:
+      - postgres-compose-network
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com.br"
+      PGADMIN_DEFAULT_PASSWORD: "PgAdmin!!!"
+    ports:
+      - "16543:80"
+    depends_on:
+      - postgres
+    networks:
+      - postgres-compose-network
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    hostname: some-rabbit
+    restart: always
+    container_name: 'rabbitmq'
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq/
+      - rabbitmq_log:/var/log/rabbitmq/
+    networks:
+      - rabbitmq_go_net
+
+  platformApp:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: platformapp
+    container_name: 'platformapp'
+    restart: always
+    ports:
+      - 7280:443
+      - 5280:80
+    networks:
+      - rabbitmq_go_net
+      - postgres-compose-network
+    depends_on:
+      - postgres
+      - rabbitmq
+
+  apigraphql:
+    build: 
+      context: .
+      dockerfile: dockerfile-graphql   
+    image: apigraphql
+    container_name: 'apigraphql'
+    restart: always
+    ports:
+      - 7094:443
+      - 5143:80
+    networks:
+      - rabbitmq_go_net
+      - postgres-compose-network
+    depends_on:
+      - postgres
+      - rabbitmq
+
+
+volumes:
+  pgdata:
+  rabbitmq_data:
+  rabbitmq_log:
+
+networks:
+  postgres-compose-network:
+    driver: bridge
+  rabbitmq_go_net:
+    driver: bridge

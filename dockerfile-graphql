@@ -1,0 +1,40 @@
+# syntax=docker/dockerfile:1
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+WORKDIR /app
+
+COPY ./ApiGraphQL/ApiGraphQL/*.sln ./ApiGraphQL/ApiGraphQL/
+COPY ./ApiGraphQL/ApiGraphQL/*.csproj ./ApiGraphQL/ApiGraphQL/
+COPY ./Contracts/Contracts/*.csproj ./Contracts/Contracts/
+COPY ./ApiGraphQL/Models/*.csproj ./ApiGraphQL/Models/
+COPY ./ApiGraphQL/DataRepository/*.csproj ./ApiGraphQL/DataRepository/
+
+
+#
+RUN dotnet restore "./Contracts/Contracts/Contracts.csproj"
+RUN dotnet restore "./ApiGraphQL/Models/Models.csproj"
+RUN dotnet restore "./ApiGraphQL/DataRepository/DataRepository.csproj"
+RUN dotnet restore "./ApiGraphQL/ApiGraphQL/ApiGraphQL.csproj"
+
+#
+# copy everything else and build app
+COPY ./Contracts/Contracts/. ./Contracts/Contracts/
+COPY ./ApiGraphQL/ApiGraphQL/. ./ApiGraphQL/ApiGraphQL/
+COPY ./ApiGraphQL/Models/ ./ApiGraphQL/Models/
+COPY ./ApiGraphQL/DataRepository/ ./ApiGraphQL/DataRepository/
+
+#
+WORKDIR /app/ApiGraphQL/DataRepository/
+RUN dotnet publish -c Release -o out 
+WORKDIR /app/ApiGraphQL/Models/
+RUN dotnet publish -c Release -o out 
+WORKDIR /app/Contracts/Contracts
+RUN dotnet publish -c Release -o out 
+WORKDIR /app/ApiGraphQL/ApiGraphQL
+RUN dotnet publish -c Release -o out 
+
+
+# Build runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /app
+COPY --from=build-env /app/ApiGraphQL/ApiGraphQL/out .
+ENTRYPOINT ["dotnet", "ApiGraphQL.dll"]
