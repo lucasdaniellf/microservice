@@ -109,6 +109,7 @@ namespace PlatformApp.Models.DTO
         {
             Platform_PlatformType_ReadDTO dto = new Platform_PlatformType_ReadDTO()
             {
+                Id = platformType.Id,
                 Description = platformType.Description
             };
             return dto;

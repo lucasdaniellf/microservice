@@ -118,9 +118,10 @@ namespace DataRepository
             using (var conn = new NpgsqlConnection(_context.ConnString))
             {
 
-                string sql = @"UPDATE jogo SET IdEstudio = @IdEstudio";
+                string sql = @"UPDATE jogo SET IdEstudio = @IdEstudio 
+                                        WHERE Jogo.Id = @IdJogo";
 
-                int result = conn.Execute(sql, new { IdEstudio = jogo.IdEstudio });
+                int result = conn.Execute(sql, new { jogo.IdEstudio, jogo.IdJogo }); ;
 
                 return result > 0;
             }

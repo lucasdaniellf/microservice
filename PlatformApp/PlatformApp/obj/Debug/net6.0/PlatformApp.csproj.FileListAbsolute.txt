@@ -263,6 +263,10 @@ D:\Programação\PlatformApp\PlatformApp\obj\Debug\net6.0\refint\PlatformApp.dll
 D:\Programação\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.pdb
 D:\Programação\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.genruntimeconfig.cache
 D:\Programação\PlatformApp\PlatformApp\obj\Debug\net6.0\ref\PlatformApp.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\appsettings.Development.json
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\appsettings.json
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\PlatformApp.exe
@@ -270,7 +274,13 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\PlatformA
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\PlatformApp.runtimeconfig.json
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\PlatformApp.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\PlatformApp.pdb
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Azure.Core.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Humanizer.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.Abstractions.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MessagePack.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MessagePack.Annotations.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -288,7 +298,6 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
@@ -299,7 +308,10 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.Graph.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.Graph.Core.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -327,6 +339,7 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\NuGet.Pac
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\NuGet.ProjectModel.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\NuGet.Protocol.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\RabbitMQ.Client.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -338,9 +351,11 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Co
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Memory.Data.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Text.Json.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Windows.Extensions.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -451,7 +466,6 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\de\Micros
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
@@ -467,7 +481,6 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\it\Micros
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
@@ -498,7 +511,6 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\ru\Micros
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
@@ -512,6 +524,8 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Contracts.dll
+D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Contracts.pdb
 D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.csproj.AssemblyReference.cache
 D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.AssemblyInfoInputs.cache
@@ -528,12 +542,3 @@ D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\refint\Pl
 D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.pdb
 D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\PlatformApp.genruntimeconfig.cache
 D:\Programação\Microservice\PlatformApp\PlatformApp\obj\Debug\net6.0\ref\PlatformApp.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.Abstractions.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\RabbitMQ.Client.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\System.Text.Json.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Contracts.dll
-D:\Programação\Microservice\PlatformApp\PlatformApp\bin\Debug\net6.0\Contracts.pdb

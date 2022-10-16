@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApiGraphQL",
+    "\\PlatformApp",
+    "\\PlatformApp\\PlatformApp",
+    "\\PlatformApp\\PlatformApp\\Repository",
+    "\\PlatformApp\\PlatformApp\\Repository\\DA"
+  ],
+  "SelectedNode": "\\docker-compose.yaml",
+  "PreviewInSolutionExplorer": false
+}

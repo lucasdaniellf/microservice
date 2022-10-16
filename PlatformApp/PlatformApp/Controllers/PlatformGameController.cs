@@ -75,7 +75,7 @@ namespace PlatformApp.Controllers
             return BadRequest();
         }
 
-        [HttpDelete]
+        [HttpDelete("{GameId}")]
         public async Task<ActionResult> RemoveGameFromPlatformAsync(int PlatformId, int GameId)
         {
 

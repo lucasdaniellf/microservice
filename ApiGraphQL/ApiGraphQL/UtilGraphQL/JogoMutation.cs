@@ -74,6 +74,17 @@ namespace MyGraphQLAPI.Repository.UtilGraphQL
             throw new GraphQLException(new Error("Jogo não encontrado", "ID_JOGO_INEXISTENTE"));
         }
 
+        public JogoPayload UpdateJogoEstudio(UpdateJogoIdEstudioInput input)
+        {
+            if (_jogoRepository.UpdateEstudioJogo(_context, input))
+            {
+                Jogo jogo = _jogoRepository.SelectJogoPorID(_context, input.IdJogo) ?? throw new GraphQLException(new Error("Falha ao Obter Jogo", "ERRO_CONEXÂO_BANCO"));
+                JogoPayload payload = new JogoPayload(jogo);
+                return payload;
+            }
+            throw new GraphQLException(new Error("Jogo não encontrado", "ID_JOGO_INEXISTENTE"));
+        }
+
         public async Task<JogoPayload> UpdateRemoveJogoGenero(UpdateJogoGeneroInput input)
         {
 
